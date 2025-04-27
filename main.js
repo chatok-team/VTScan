@@ -31,7 +31,8 @@ function createWindow() {
 			nodeIntegration: true,
 			contextIsolation: false,
 			enableRemoteModule: false,
-		}
+		},
+		icon: "./build/icon.ico"
 	});
 
 	win.loadFile('index.html');
